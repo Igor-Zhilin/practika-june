@@ -5,14 +5,8 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
-<<<<<<< HEAD
   background-color: #a0a0a0;
   margin: auto;
-=======
-  background-color: #7cff70;
-  margin: auto;
-  
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
 }
 
 .main {
@@ -50,7 +44,6 @@
   cursor: pointer;
   border: 1px solid black;
   font-size: 15px;
-<<<<<<< HEAD
   transition: transform 0.2s;
 }
 
@@ -58,15 +51,6 @@
   transform: scale(1.05);
 }
 .but {
-=======
-  transition: transform 0.2s
-}
-
-.button:hover {
-  transform: scale(1.05)
-}
-.but{
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
   padding-bottom: 1%;
   padding-top: 2%;
 }
@@ -76,39 +60,23 @@
   align-items: center;
   flex-direction: column;
 }
-<<<<<<< HEAD
 .fact {
   text-align: center;
 }
 .list {
-=======
-.fact{
-  text-align: center;
-}
-.list{
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
   line-height: 160%;
   padding-bottom: 1%;
   text-decoration: none;
 }
-<<<<<<< HEAD
 h1 {
   padding-bottom: 1%;
 }
 
 .fact {
-=======
-h1{
-  padding-bottom: 1%;
-}
-
-.fact{
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
   background-color: white;
   padding: 10px 10px 10px 10px;
   border: 1px solid black;
   border-radius: 15px;
-<<<<<<< HEAD
 }
 .holydayLinks {
   text-decoration: none;
@@ -119,26 +87,11 @@ h1{
   text-decoration: underline;
 }
 .facts {
-=======
-
-}
-.holydayLinks{
-  text-decoration: none;
-  color: black;
-  
-}
-.holydayLinks:hover{
-  color: red;
-  text-decoration: underline;
-}
-.facts{
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
   padding-bottom: 3%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-<<<<<<< HEAD
 .cursor {
   padding-top: 50px;
   position: relative;
@@ -172,31 +125,3 @@ h1{
     border-right-color: transparent;
   }
 }
-=======
-.cursor{
-  padding-top: 50px;
-    position: relative;
-    width: 22em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(0, 0, 0, 0.75);
-    font-size: 30px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-.typewriter-animation {
-  animation: 
-    typewriter 5s steps(50) 1s 1 normal both, 
-    blinkingCursor 500ms steps(50) infinite normal;
-}
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
-}
-@keyframes blinkingCursor{
-  from { border-right-color: rgba(0, 0, 0, 0.75); }
-  to { border-right-color: transparent; }
-}
->>>>>>> 50423c73f0a114c29b8c4a82ca2b0c3ec12ec4d6
