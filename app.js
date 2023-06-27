@@ -20,6 +20,8 @@ const countryList = () => {
 };
 document.addEventListener("DOMContentLoaded", countryList);
 
+
+
 //прослушивание события на кнопку и вызов функции
 const btn = document.querySelector(".button");
 btn.addEventListener("click", (event) => {
@@ -142,13 +144,24 @@ function createHTML(array, mounth) {
     dateArr.push(array[i].date);
     let date = dateArr[i];
     let mounth = dateArr[i];
-    let link = `<a class ='holydayLinks' href = '#' onclick='dateInfo(${mounth.slice(
+    let link = `<a class ='holydayLinks' id='myLink' href = '#' onclick='dateInfo(${mounth.slice(
       5,
       7
     )}, ${date.slice(8)})'>${array[i].localName}</a>  `;
     divList.insertAdjacentHTML("beforeend", link);
   }
 }
+
+var myButton = document.getElementById("myButton");
+  var myDiv = document.getElementById("myDiv");
+
+  myButton.addEventListener("click", function() {
+    myDiv.style.display = "block";
+    myDiv.style.backgroundColor = "white";
+    myDiv.style.padding = "10px";
+    myDiv.style.border = "1px solid black";
+    myDiv.style.borderRadius = "15px";
+  });
 
 //из api numbersapi получает рандомный факт о дате и выводит его на страницу
 function dateInfo(mounth, date) {

@@ -1,4 +1,4 @@
-* {
+body {
   width: 1000px;
   text-align: center;
   padding: 0;
@@ -61,7 +61,7 @@
   flex-direction: column;
 }
 .fact {
-  text-align: center;
+  
 }
 .list {
   line-height: 160%;
@@ -73,8 +73,11 @@ h1 {
 }
 
 .fact {
+ 
+}
+.myClass {
   background-color: white;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 15px;
 }
