@@ -152,8 +152,8 @@ function createHTML(array, mounth) {
   }
 }
 
-var myButton = document.getElementById("myButton");
-  var myDiv = document.getElementById("myDiv");
+const myButton = document.getElementById("myButton");
+  const myDiv = document.getElementById("myDiv");
 
   myButton.addEventListener("click", function() {
     myDiv.style.display = "block";
